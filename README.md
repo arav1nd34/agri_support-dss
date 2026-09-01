@@ -1,2 +1,2 @@
 # agri_support-dss
-Modular Machine Learning algorithms that use datasets from different aspects to determine the best possible suggestion for a farmer.
+Modular Machine Learning pipeline that uses datasets for different parameters to determine the best possible suggestion for a farmer.
