@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import matplotlib.pyplot as plt
 import numpy as np
 
-def check_soil_quality(dataset_path='datasets/Crop_recommendation.csv'):
+def check_soil_quality(dataset_path='Smartagri/datasets/Crop_recommendation.csv'):
     df = pd.read_csv(dataset_path)
     
     def label_soil(row):
