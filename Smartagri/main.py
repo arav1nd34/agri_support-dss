@@ -8,7 +8,7 @@ def main():
    
     os.makedirs('outputs', exist_ok=True)
     
-    dataset = 'datasets/Crop_recommendation.csv'
+    dataset = 'Smartagri/datasets/Crop_recommendation.csv'
     
     soil_model, soil_acc = check_soil_quality(dataset)
     
